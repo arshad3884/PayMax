@@ -168,6 +168,7 @@ public class PayMax {
 		driver.findElement(By.xpath("(.//android.widget.EditText)[6]")).sendKeys("");
 		driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"Verify\")")).click();
 		//test comment added
+		//sub branch develop changes 
 	}
 	
 }
